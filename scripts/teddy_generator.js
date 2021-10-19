@@ -17,13 +17,13 @@ if (!fs.existsSync(outputFolder + '/stat')) {
 
 const partTypes = [
   { name: "Background", count: 46, probability: 1 },
-  { name: "Wings", count: 11, probability: 0.109 },
   { name: "Body", count: 46, probability: 1 },
+  { name: "Wings", count: 11, probability: 0.109 },
   { name: "Shirt", count: 22, probability: .45 },
-  { name: "Eyes", count: 32, probability: 1 },
-  { name: "Mouth", count: 20, probability: 1 },
   { name: "Hands", count: 14, probability: 0.142 },
   { name: "Hat", count: 40, probability: 0.356 },
+  { name: "Mouth", count: 20, probability: 1 },
+  { name: "Eyes", count: 32, probability: 1 },
 ];
 
 
